@@ -32,6 +32,11 @@ const Navbar = () => {
         router.push(path);
       }
       }
+      buttonContactProps={{
+        onClick: () => {
+          router.push("/more-information");
+        },
+      }}
     />
   );
 };
