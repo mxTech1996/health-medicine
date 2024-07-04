@@ -43,7 +43,7 @@ export default function Home() {
             level={3}
             className="font-medium mb-10 text-center"
           >
-            Features
+            Nuestos Servicios
           </Typography.Title>
           <ListFeatures
             stylesContainer={{
@@ -84,7 +84,7 @@ export default function Home() {
                 arrowColor: "blue"
               }}
               buttonAdd={{
-                hidden: true
+                className: "hidden"
               }}
 
             />

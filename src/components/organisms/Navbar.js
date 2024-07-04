@@ -28,7 +28,10 @@ const Navbar = () => {
       }}
       links={navData}
       showButtonCart={false}
-
+      onRedirect={(path) => {
+        router.push(path);
+      }
+      }
     />
   );
 };

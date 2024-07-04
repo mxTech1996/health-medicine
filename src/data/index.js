@@ -16,7 +16,7 @@ export const navData = [
     label: "Let's start!",
   },
   {
-    href: '/#our-services',
+    href: '/#products',
     label: 'Our Services',
   },
   {
