@@ -15,8 +15,8 @@ const Footer = () => {
       onRedirect={(path) => {
         window.open(path, '_blank');
       }}
-      visaImage='/images/visa.png'
-      masterImage='/images/mastercard.png'
+      visaImage={null}
+      masterImage={null}
     />
   );
 };

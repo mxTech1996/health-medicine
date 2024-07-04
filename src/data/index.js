@@ -1,6 +1,6 @@
 
-export const pageName = "test";
-export const primaryColor = "#000000";
+export const pageName = "Health&Medicine";
+export const primaryColor = "#C6C6C6";
 export const backgroundColor = "#FFFFFF";
 export const makeClearBackground = (color) => {
   return {
@@ -27,12 +27,8 @@ export const navData = [
 
 export const footerData = [
   {
-    href: '/pdf/AP-MESANEX-MAYO-2024.pdf',
+    href: '/pdf/AP-HM.pdf',
     label: 'Privacy',
-  },
-  {
-    href: '/pdf/TYC-MESANEX-MAYO-2024.pdf',
-    label: 'Terms',
   },
   {
     href: '/more-information',

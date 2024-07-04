@@ -27,18 +27,15 @@ export default function Home() {
     >
       <Navbar />
       <Hero
-        contentThirdSection={
-          <Typography.Title className=" drop-shadow-sm text-yellow-300">
-            The best services for you
-          </Typography.Title>
-        }
-        variant="background-img"
+        variant="img-right"
         src={dataSite.image_hero}
         withSubView
         title={dataSite.subtitle}
         description={dataSite.description}
         srcSecondary={dataSite.image_hero2}
-        colorText={primaryColor}
+        colorText={"#000"}
+        classNamePrincipalText="text-left "
+
       />
       <div className="container mx-auto flex flex-col gap-20 my-24">
         <div className="flex flex-col">
@@ -50,17 +47,17 @@ export default function Home() {
           </Typography.Title>
           <ListFeatures
             stylesContainer={{
-              borderColor: { primaryColor },
+              borderColor: primaryColor,
               borderWidth: 2,
               padding: 10,
               borderRadius: 10,
             }}
             src={dataSite.image_hero2}
-            features={dataSite.services.map((feature) => ({
+            features={dataSite?.services?.map((feature) => ({
               icon: <MdOutlineArchitecture />,
               title: feature.title,
 
-              color: { primaryColor },
+              color: primaryColor,
             }))}
           />
         </div>
@@ -72,17 +69,24 @@ export default function Home() {
               variant="grid"
               productItemVariant="horizontal"
               onClickImage={(id) => {
-                router.push(`/product/${id}`);
+                router.push(`/more-information`);
               }}
               stylesItem={{
-                backgroundColor: { primaryColor },
+                backgroundColor: primaryColor,
                 borderRadius: 10,
               }}
-              productVersion="2"
+
+
+              withPrice={false}
+              productVersion="4"
               carouselOptions={{
                 backgroundColor: "transparent",
                 arrowColor: "blue"
               }}
+              buttonAdd={{
+                hidden: true
+              }}
+
             />
           )}
         </div>
