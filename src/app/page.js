@@ -108,7 +108,7 @@ export default function Home() {
             version="v2"
           />
         </div>
-        <div className="flex flex-col" id="our-services">
+        <div className="flex flex-col" id="mission">
           <Typography.Title
             level={3}
             className="text-white font-medium mb-10 text-center"
