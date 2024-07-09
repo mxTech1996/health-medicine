@@ -76,6 +76,7 @@ export default function Home() {
                 borderRadius: 10,
               }}
 
+              title="Nuestros Productos"
 
               withPrice={false}
               productVersion="4"
@@ -113,7 +114,7 @@ export default function Home() {
             level={3}
             className="text-white font-medium mb-10 text-center"
           >
-            Know Us
+            Nosotros
           </Typography.Title>
           <Missions
             data={dataSite.info}
