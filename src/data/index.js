@@ -15,7 +15,10 @@ export const navData = [
     href: '/#mission',
     label: 'Nosotros',
   },
-
+  {
+    href: '/#products',
+    label: 'Nuestros Productos',
+  },
   {
     href: '/#references',
     label: 'Referencias',
