@@ -129,7 +129,7 @@ export default function Home() {
             level={3}
             className="font-medium mb-10 text-center"
           >
-            References
+            Referencias
           </Typography.Title>
           <References
             carouselOptions={{
