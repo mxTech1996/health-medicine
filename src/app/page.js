@@ -84,9 +84,7 @@ export default function Home() {
                 backgroundColor: "transparent",
                 arrowColor: "blue"
               }}
-              buttonAdd={{
-                className: "hidden"
-              }}
+           
 
             />
           )}
