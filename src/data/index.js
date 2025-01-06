@@ -27,8 +27,12 @@ export const navData = [
 
 export const footerData = [
   {
-    href: '/pdf/AP-HM.pdf',
+    href: '/pdf/AP.pdf',
     label: 'Privacy',
+  },
+  {
+    href: '/pdf/TYC.pdf',
+    label: 'Terms',
   },
   {
     href: '/more-information',
